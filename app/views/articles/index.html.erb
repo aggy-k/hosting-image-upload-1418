@@ -12,3 +12,14 @@
 </div>
 
 <%= link_to "New article", new_article_path %>
+
+
+<div>
+  <%= cl_image_tag("iavt7m9mgfd8u0kxtin1", width: 400, height: 300, crop: :fill) %>
+  <%= cl_image_tag("iavt7m9mgfd8u0kxtin1", width: 400, height: 300) %>
+</div>
+
+<div>
+  <%= cl_image_tag("yho8p4auzc9f2nq7fxob", width: 150, height: 150, crop: :thumb) %>
+  <%= cl_image_tag("yho8p4auzc9f2nq7fxob", width: 150, height: 150, crop: :thumb, gravity: :face) %>
+</div>
